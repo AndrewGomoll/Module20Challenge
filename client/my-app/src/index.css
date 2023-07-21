@@ -1,0 +1,59 @@
+*{
+  background-color: antiquewhite;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#image{
+  background-image: url(./ProfilePhoto.JPG);
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+a{
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#Portfolio{
+  min-height: 500px;
+  min-width: 50px;
+}
+
+nav a:link{
+text-decoration: none;
+border:solid;
+color: black;
+}
+
+nav a:visited{
+  text-decoration: none;
+  border:solid;
+  color: blue;
+  }
+
+  nav a:hover{
+    text-decoration: none;
+    border:solid;
+    color: red;
+    }
+
+footer a{
+  text-decoration: none;
+  border:solid;
+}
